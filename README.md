@@ -103,13 +103,13 @@ Implicit Objects and their corresponding classes:
 
 get vs post:
 
-•	The Get method transfer data through url, while Post method put data into a packet before transferring.
+  •	The Get method transfer data through url, while Post method put data into a packet before transferring.
 
-•	Get method has better performance than Post
+  •	Get method has better performance than Post
 
-•	Post method is more secure than Get
+  •	Post method is more secure than Get
 
-•	For Get method, it has an upper limit of how much data it can transfer, while Post method does not have this limit. 
+  •	For Get method, it has an upper limit of how much data it can transfer, while Post method does not have this limit. 
 
 
 
