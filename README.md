@@ -2,7 +2,11 @@
 
 Web pages can be either static or dynamic. 
 
-JavaServer Pages (JSP) is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. JSP allows you to use HTMl tag in Java.
+JavaServer Pages (JSP) is a technology that helps software developers create dynamically generated web pages based on HTML, XML, or other document types. 
+
+Servlet is html in java
+JSP is java in html
+
 
 Difference between danamical web techonologes:
 
