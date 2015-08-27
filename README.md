@@ -62,7 +62,7 @@ Implicit Object:
 
 Implicit Objects and their corresponding classes:
 
-1. out: This is used for writing content to the client (browser). It has several methods which can be used for properly formatting output message to the browser and for dealing with the buffer.
+1.out: This is used for writing content to the client (browser). It has several methods which can be used for properly formatting output message to the browser and for dealing with the buffer.
 
     void print()
 
@@ -82,23 +82,23 @@ Implicit Objects and their corresponding classes:
 
     int getRemaining()
 
-2. request: The main purpose of request implicit object is to get the data on a JSP page which has been entered by user on the previous JSP page. While dealing with login and signup forms in JSP we often prompts user to fill in those details, this object is then used to get those entered details on an another JSP page (action page) for validation and other purposes.
+2.request: The main purpose of request implicit object is to get the data on a JSP page which has been entered by user on the previous JSP page. While dealing with login and signup forms in JSP we often prompts user to fill in those details, this object is then used to get those entered details on an another JSP page (action page) for validation and other purposes.
 
 
 
 3.response: It is basically used for modfying or delaing with the response which is being sent to the client(browser) after processing the request.
 
-4. session: Session is most frequently used implicit object in JSP. The main usage of it to gain access to all the user’s data till the user session is active.
+4.session: Session is most frequently used implicit object in JSP. The main usage of it to gain access to all the user’s data till the user session is active.
 
-5. application	
+5.application	
 
-6. exception
+6.exception
 
-7. page
+7.page
 
-8. pageContext	
+8.pageContext	
 
-  9 .config
+9.config
 
 
 get vs post:
