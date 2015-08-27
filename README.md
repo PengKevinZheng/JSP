@@ -121,6 +121,31 @@ Difference between forward and redirect:
     
     •	To make redirect, we need to write a scriptlet
         <% response.sendRedirect(“somePage”); %>
+        
+JSP tag:
+
+    •	JSP expression: <%=      %>
+    
+    You can output the value of k calculated in scriptlet
+    
+    •	JSP declaration: <%!      %>
+    
+    You can declare a Java variable and method like “add” inside it
+    
+    •	JSP scriptlet: <%       %>
+    
+    You can write java code, call method inside. But you can’t define a method inside 
+    
+    •	JSP direct: <%@       %>
+    
+    You can include another file. This can be used inside <body> 
+    
+    (1)	Page direct: <%@page import=”...” %>
+    
+    (2)	Include direct: <%@include file=”... %>
+    
+    (3)	Taglib direct: <%@taglib uri=”...” prefix=”...”%>
+
 
 
 
