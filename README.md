@@ -42,3 +42,17 @@ page指令语法格式：
 属性2. import 默认为无 
 
 属性3. contentType 默认text/html ISO-8859-1 文本文件/网页 默认字符集是一个纯英文的字符集
+
+JSP Life Cycle: 
+
+1. Page Translation: In this phase the JSP page is translated into the corresponding Servlet. 
+
+2. Page Compilation: compile that Servlet.
+
+3. Load Class and Create Instance
+
+4. JSP initialization (Call jspinit() )
+
+5. JSP execution (Call _jspServcie())
+
+6. JSP clean up (Call jspDestroy() )
