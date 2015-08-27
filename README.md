@@ -26,6 +26,9 @@ Direcotry of Web-INFO:
  
  2.JSP comment: <%-- Comment --%> This cannot be seen in the broswer.
  
+ 3. // dingle line comment
+    /*   */ multiply line comment
+ 
 page指令语法格式：
 
 <%@ page 属性="属性值"%>
