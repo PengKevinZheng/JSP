@@ -20,6 +20,11 @@ Direcotry of Web-INFO:
 
 3. lib folder, store jar files.
 
+ Comment in JSP:
+ 
+ 1.HTML comment: <!-- Write your comments here --> This can be seen in the broswer.
+ 
+ 2.JSP comment: <%-- Comment --%> This cannot be seen in the broswer.
  
 page指令语法格式：
 
