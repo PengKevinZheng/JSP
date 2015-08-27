@@ -112,12 +112,14 @@ get vs post:
     •	For Get method, it has an upper limit of how much data it can transfer, while Post method does not have this limit. 
     
 Difference between forward and redirect
-                •	If page1 forward to page2, then url is page1 and the content is page2
-                •	If page1 redirect to page2, then both url and the content is page2
-                •	To make forward, we can use <jsp:forward page=”somePage”/>
-                •	To make redirect, we need to write a scriptlet
-                <% response.sendRedirect(“somePage”); %>
-    
+    •	If page1 forward to page2, then url is page1 and the content is page2
+    •	If page1 redirect to page2, then both url and the content is page2
+    •	To make forward, we can use <jsp:forward page=”somePage”/>
+    •	To make redirect, we need to write a scriptlet
+    <% response.sendRedirect(“somePage”); %>
+
+
+
 
 
 
