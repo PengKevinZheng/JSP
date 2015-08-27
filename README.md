@@ -19,3 +19,14 @@ Direcotry of Web-INFO:
 2. classees folder, store *.class file.
 
 3. lib folder, store jar files.
+
+ 
+page指令语法格式：
+
+<%@ page 属性="属性值"%>
+
+属性1. language JSP脚本语言 default to be JAVA
+
+属性2. import 默认为无 
+
+属性3. contentType 默认text/html ISO-8859-1 文本文件/网页 默认字符集是一个纯英文的字符集
