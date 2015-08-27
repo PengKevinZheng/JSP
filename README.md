@@ -10,28 +10,28 @@ JSP is java in html
 
 Difference between danamical web techonologes:
 
-1.JSP: Java, platform Independence, more secure, suitable for large size and enterprise web application;
+    1.JSP: Java, platform Independence, more secure, suitable for large size and enterprise web application;
 
-2.Asp.net: less security, less platform Independence.
+    2.Asp.net: less security, less platform Independence.
 
-3.PHP:  easy, efficiency, low cost, short development cycle, suitable for middle and small size enterprise web application.
+    3.PHP:  easy, efficiency, low cost, short development cycle, suitable for middle and small size enterprise web application.
 
 Direcotry of Web-INFO:
 
-1. web.xml.
+    1. web.xml.
 
-2. classees folder, store *.class file.
+    2. classees folder, store *.class file.
 
-3. lib folder, store jar files.
+    3. lib folder, store jar files.
 
  Comment in JSP:
  
- 1.HTML comment: <!-- Write your comments here --> This can be seen in the broswer.
+     1.HTML comment: <!-- Write your comments here --> This can be seen in the broswer.
  
- 2.JSP comment: <%-- Comment --%> This cannot be seen in the broswer.
+     2.JSP comment: <%-- Comment --%> This cannot be seen in the broswer.
  
- 3. // dingle line comment
-    /*   */ multiply line comment
+     3. // dingle line comment
+     /*   */ multiply line comment
  
 page指令语法格式：
 
@@ -45,17 +45,17 @@ page指令语法格式：
 
 JSP Life Cycle: 
 
-1. Page Translation: In this phase the JSP page is translated into the corresponding Servlet. 
+    1. Page Translation: In this phase the JSP page is translated into the corresponding Servlet. 
 
-2. Page Compilation: compile that Servlet.
+    2. Page Compilation: compile that Servlet.
 
-3. Load Class and Create Instance
+    3. Load Class and Create Instance
 
-4. JSP initialization (Call jspinit() )
+    4. JSP initialization (Call jspinit() )
 
-5. JSP execution (Call _jspServcie())
+    5. JSP execution (Call _jspServcie())
 
-6. JSP clean up (Call jspDestroy() )
+    6. JSP clean up (Call jspDestroy() )
 
 
 Implicit Object:
