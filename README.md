@@ -147,8 +147,8 @@ JSP tag:
     (3)	Taglib direct: <%@taglib uri=”...” prefix=”...”%>
     
     
-What are advantages of using JSP? 
-JSP offer several advantages as listed below:   
+    What are advantages of using JSP? 
+    JSP offer several advantages as listed below:   
         1)   Performance  is  significantly  better  because  JSP allows  embedding  Dynamic  Elements  in  HTML                     Pages itself.   
         2)   JSP  are  always  compiled  before  it's  processed  by the  server  unlike  CGI/Perl  which  requires                 the server to load an interpreter and the target script each time the page is requested.   
         3)   JavaServer Pages are built on top of the Java Servlets API, so like Servlets, JSP also has access to all                 the powerful Enterprise Java APIs, including JD
