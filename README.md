@@ -56,3 +56,60 @@ JSP Life Cycle:
 5. JSP execution (Call _jspServcie())
 
 6. JSP clean up (Call jspDestroy() )
+
+
+Implicit Object:
+
+Implicit Objects and their corresponding classes:
+
+1. out: This is used for writing content to the client (browser). It has several methods which can be used for properly formatting output message to the browser and for dealing with the buffer.
+
+void print()
+
+void println()
+
+void newLine()
+
+void clear()
+
+void clearBuffer()
+
+void flush()
+
+boolean isAutoFlush()
+
+int getBufferSize()
+
+int getRemaining()
+
+2. request: The main purpose of request implicit object is to get the data on a JSP page which has been entered by user on the previous JSP page. While dealing with login and signup forms in JSP we often prompts user to fill in those details, this object is then used to get those entered details on an another JSP page (action page) for validation and other purposes.
+
+
+
+3.response: It is basically used for modfying or delaing with the response which is being sent to the client(browser) after processing the request.
+
+4. session: Session is most frequently used implicit object in JSP. The main usage of it to gain access to all the user’s data till the user session is active.
+
+5. application	
+
+6. exception
+
+7. page
+
+8. pageContext	
+
+9 .config
+
+
+get vs post:
+
+•	The Get method transfer data through url, while Post method put data into a packet before transferring.
+
+•	Get method has better performance than Post
+
+•	Post method is more secure than Get
+
+•	For Get method, it has an upper limit of how much data it can transfer, while Post method does not have this limit. 
+
+
+
